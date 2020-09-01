@@ -2,6 +2,7 @@
     "telemetry.machineId": "504b9b9e1ad52e675d701466ebf6eb2642f4bd59dbd363e4ad52151d68f5a46e",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/dusan/projs/ricepe/recipe-app-api",
             "file:///home/dusan/projs/ricepe/recipe-app-api/app"
         ],
         "files2": []
@@ -40,7 +41,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -49,7 +51,18 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/dusan/projs/ricepe/recipe-app-api/app",
+                                        "fsPath": "/home/dusan/projs/ricepe/recipe-app-api",
+                                        "external": "file:///home/dusan/projs/ricepe/recipe-app-api",
+                                        "path": "/home/dusan/projs/ricepe/recipe-app-api",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/dusan/projs/ricepe/recipe-app-api"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/dusan/projs/ricepe/recipe-app-api/app",
                                         "path": "/home/dusan/projs/ricepe/recipe-app-api/app",
                                         "scheme": "file"
@@ -892,7 +905,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1459,17 +1473,17 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/dusan/projs/ricepe/recipe-app-api/app",
-            "backupPath": "/home/dusan/projs/ricepe/recipe-app-api/app/app/~/.vscode-root/Backups/96266117789673ff4e4b9d2729ca7899",
+            "folder": "file:///home/dusan/projs/ricepe/recipe-app-api",
+            "backupPath": "/home/dusan/projs/ricepe/recipe-app-api/app/app/~/.vscode-root/Backups/5fb5eca0b9e5992453c5cc48b5f2aedb",
             "uiState": {
                 "mode": 1,
                 "x": 497,
-                "y": 582,
+                "y": 414,
                 "width": 1334,
                 "height": 1026
             }
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/dusan/projs/ricepe/recipe-app-api"
+    "pickerWorkingDir": "/home/dusan/projs/ricepe"
 }
